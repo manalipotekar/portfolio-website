@@ -1,0 +1,21 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="98" y1="96" x2="658" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="170" y1="170" x2="520" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFEFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#E0E7FF" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="720" rx="56" fill="url(#bg)"/>
+  <circle cx="360" cy="278" r="130" fill="url(#accent)"/>
+  <path d="M146 616C178 495 260 430 360 430C460 430 542 495 574 616" fill="url(#accent)"/>
+  <path d="M560 124H612V178H560V124Z" fill="#A5F3FC" fill-opacity="0.7"/>
+  <path d="M104 538H158V592H104V538Z" fill="#BFDBFE" fill-opacity="0.6"/>
+  <path d="M198 132C198 117.641 209.641 106 224 106H324C338.359 106 350 117.641 350 132V232C350 246.359 338.359 258 324 258H224C209.641 258 198 246.359 198 232V132Z" fill="#F0F9FF" fill-opacity="0.18"/>
+  <text x="360" y="679" text-anchor="middle" fill="white" fill-opacity="0.9" font-family="Arial, sans-serif" font-size="34" font-weight="700">
+    Software Engineer
+  </text>
+</svg>
