@@ -9,43 +9,38 @@ export function AboutSection() {
     <SectionWrapper
       id="about"
       title="About"
-      subtitle="I combine engineering rigor with clean design to ship products that scale."
+      subtitle="I build scalable backend systems and collaborate across teams to deliver reliable products."
     >
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
         <AnimatedReveal>
           <article className="rounded-[1.6rem] border border-brand-100 bg-white p-7 shadow-sm dark:border-slate-800 dark:bg-slate-900/80">
-            <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Bio</h3>
+            <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Summary</h3>
             <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
-              I am a software engineer focused on building scalable web platforms, internal tools, and polished
-              customer-facing products. I care about architecture, observability, and great UX.
+              Backend engineer with 2+ years of experience building scalable, resilient microservices using Java 21,
+              Spring Boot, and AWS. Strong in distributed systems, RESTful APIs, Kafka-based messaging, CI/CD, and
+              test-driven development for cloud-native applications.
             </p>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               <div className="rounded-xl border border-brand-100 bg-brand-50/60 p-4 dark:border-slate-800 dark:bg-slate-900">
                 <div className="flex items-center gap-2">
                   <GraduationCap className="h-4 w-4 text-brand-700" />
-                  <p className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                    Education
-                  </p>
+                  <p className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Education</p>
                 </div>
                 <p className="mt-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                  B.Tech in Computer Science, 2020
+                  B.E. Computer Engineering, Goa Engineering College (CGPA 8.87)
                 </p>
               </div>
               <div className="rounded-xl border border-brand-100 bg-brand-50/60 p-4 dark:border-slate-800 dark:bg-slate-900">
                 <div className="flex items-center gap-2">
                   <BriefcaseBusiness className="h-4 w-4 text-brand-700" />
-                  <p className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                    Experience
-                  </p>
+                  <p className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Experience</p>
                 </div>
                 <p className="mt-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                  3+ years building full-stack products
+                  Infuse Consulting (Aug 2023 – Present)
                 </p>
               </div>
             </div>
-            <h4 className="mt-7 text-sm font-bold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">
-              Technologies
-            </h4>
+            <h4 className="mt-7 text-sm font-bold uppercase tracking-[0.12em] text-slate-500 dark:text-slate-400">Technologies</h4>
             <ul className="mt-3 flex flex-wrap gap-2">
               {technologies.map((item) => (
                 <li
@@ -60,9 +55,9 @@ export function AboutSection() {
         </AnimatedReveal>
 
         <AnimatedReveal delay={0.1}>
-          <div className="relative h-[380px] overflow-hidden rounded-[1.8rem] border border-brand-100 shadow-soft dark:border-slate-800">
+          <div className="relative h-[420px] overflow-hidden rounded-[1.8rem] border border-brand-100 shadow-soft dark:border-slate-800">
             <Image
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+              src="/photo.jpg"
               alt="Team collaboration"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"

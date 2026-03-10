@@ -1,0 +1,20 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f1ff" />
+      <stop offset="100%" stop-color="#efe6ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="120" y="130" width="960" height="540" rx="30" fill="#ffffff" opacity="0.92" />
+  <rect x="170" y="190" width="420" height="24" rx="12" fill="#7f3cff" />
+  <rect x="170" y="245" width="820" height="16" rx="8" fill="#d9ccff" />
+  <rect x="170" y="275" width="780" height="16" rx="8" fill="#e4d9ff" />
+  <path d="M220 420 C 320 360, 520 360, 620 420 S 920 480, 980 420" fill="none" stroke="#7f3cff" stroke-width="8" />
+  <circle cx="300" cy="420" r="18" fill="#9b6bff" />
+  <circle cx="640" cy="420" r="18" fill="#7f3cff" />
+  <circle cx="900" cy="420" r="18" fill="#bea3ff" />
+  <text x="170" y="600" font-family="Arial, sans-serif" font-size="28" fill="#3a117f" font-weight="700">
+    Ride Booking Backend
+  </text>
+</svg>

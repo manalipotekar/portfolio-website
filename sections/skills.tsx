@@ -7,7 +7,7 @@ export function SkillsSection() {
     <SectionWrapper
       id="skills"
       title="Skills"
-      subtitle="A practical stack for delivering complete products from concept to deployment."
+      subtitle="Backend-first stack spanning distributed systems, APIs, and cloud deployment."
     >
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {skills.map((skill, index) => {

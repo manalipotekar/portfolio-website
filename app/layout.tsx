@@ -12,21 +12,23 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio.example.com"),
   title: {
-    default: "Manali Potekar | Full-Stack Developer",
-    template: "%s | Alex Carter"
+    default: "Manali Potekar | Backend Engineer",
+    template: "%s | Manali Potekar"
   },
   description:
-    "Software engineer portfolio showcasing full-stack projects, frontend craft, and backend architecture.",
+    "Backend engineer portfolio showcasing scalable microservices, cloud-native systems, and reliable APIs.",
   keywords: [
-    "Full Stack Developer",
+    "Backend Engineer",
     "Next.js Portfolio",
-    "React Developer",
-    "TypeScript Engineer",
+    "Java Engineer",
+    "Spring Boot",
+    "Kafka",
+    "AWS",
     "Software Engineer"
   ],
   openGraph: {
-    title: "Manali Potekar | Full-Stack Developer",
-    description: "Explore projects, skills, and experience for Alex Carter, a full-stack software engineer.",
+    title: "Manali Potekar | Backend Engineer",
+    description: "Explore projects, skills, and experience for Manali Potekar, a backend software engineer.",
     url: "https://portfolio.example.com",
     siteName: "Manali Potekar Portfolio",
     locale: "en_US",
@@ -34,14 +36,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manali Potekar | Full-Stack Developer",
+    title: "Manali Potekar | Backend Engineer",
     description: "Portfolio website built with Next.js, TypeScript, and Tailwind CSS."
   }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${spaceGrotesk.variable} font-[family-name:var(--font-space-grotesk)]`}>
         <Script
           id="theme-init"

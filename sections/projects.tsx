@@ -8,7 +8,7 @@ export function ProjectsSection() {
     <SectionWrapper
       id="projects"
       title="Projects"
-      subtitle="Selected work with strong UX, architecture, and performance outcomes."
+      subtitle="Selected backend and full-stack projects with strong architecture and reliability focus."
     >
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((project, index) => (

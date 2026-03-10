@@ -28,69 +28,80 @@ export type Project = {
 };
 
 export const technologies = [
-  "TypeScript",
+  "Java 21",
+  "Spring Boot",
+  "Kafka",
+  "AWS",
   "Next.js",
-  "Node.js",
-  "PostgreSQL",
-  "Tailwind CSS",
-  "Docker",
-  "AWS"
+  "CI/CD",
+  "Docker"
 ];
 
 export const skills: Skill[] = [
   { name: "React", category: "Frontend", icon: Code2 },
   { name: "Next.js", category: "Frontend", icon: Layers3 },
-  { name: "Tailwind CSS", category: "Frontend", icon: Figma },
-  { name: "Node.js", category: "Backend", icon: ServerCog },
-  { name: "Express", category: "Backend", icon: Settings2 },
-  { name: "PostgreSQL", category: "Backend", icon: Database },
+  { name: "TypeScript", category: "Frontend", icon: Figma },
+  { name: "Java 21", category: "Backend", icon: ServerCog },
+  { name: "Spring Boot", category: "Backend", icon: Settings2 },
+  { name: "Python", category: "Backend", icon: Code2 },
+  { name: "Kafka", category: "Backend", icon: Layers3 },
+  { name: "SQL + MongoDB", category: "Backend", icon: Database },
   { name: "Git & GitHub", category: "Tools", icon: Github },
   { name: "CI/CD", category: "Tools", icon: Settings2 },
   { name: "Docker", category: "Tools", icon: Layers3 },
-  { name: "AWS", category: "Cloud", icon: Cloud },
-  { name: "Vercel", category: "Cloud", icon: Globe },
-  { name: "Cloudflare", category: "Cloud", icon: Cloud }
+  { name: "AWS (EC2, S3, Lambda)", category: "Cloud", icon: Cloud },
+  { name: "Kubernetes (Basics)", category: "Cloud", icon: Globe }
 ];
 
 export const projects: Project[] = [
   {
-    name: "SaaS Analytics Dashboard",
+    name: "Test Automation Platform (No-code)",
     description:
-      "A multi-tenant analytics platform with role-based access control, real-time charts, and exportable reports.",
-    stack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Recharts"],
-    github: "https://github.com/your-username/saas-analytics-dashboard",
-    demo: "https://saas-analytics-demo.vercel.app",
+      "Built a no-code test automation platform with Next.js and Python enabling users to create, run, and manage automated tests through an intuitive UI.",
+    stack: ["Next.js", "React", "Python", "REST APIs", "AWS"],
+    github: "#",
+    demo: "#",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1655258103166-8935d8fd3208?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
   },
   {
-    name: "DevCollab API Platform",
+    name: "Ride Booking Backend",
     description:
-      "Backend-first collaboration suite with JWT auth, webhook integrations, and resilient job processing.",
-    stack: ["Node.js", "Express", "TypeScript", "Redis", "Docker"],
-    github: "https://github.com/your-username/devcollab-api-platform",
-    demo: "https://devcollab-api-demo.vercel.app",
+      "Implemented Kafka-based event streaming for ride booking, driver tracking, and cancellations in a decoupled microservices architecture.",
+    stack: ["Java 21", "Spring Boot", "Kafka", "Microservices"],
+    github: "#",
+    demo: "#",
     image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1737113202251-5bc40a896de0?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
   },
   {
-    name: "E-commerce Storefront",
+    name: "Realtime Latency Dashboard",
     description:
-      "High-performance e-commerce frontend featuring server rendering, product search, and secure checkout flow.",
-    stack: ["Next.js", "Tailwind CSS", "Stripe", "Sanity", "Zod"],
-    github: "https://github.com/your-username/ecommerce-storefront",
-    demo: "https://ecommerce-storefront-demo.vercel.app",
+      "Created a real-time dashboard to visualize cryptocurrency exchange latency with live API data and historical insights.",
+    stack: ["Next.js", "TypeScript", "Charts", "APIs"],
+    github: "#",
+    demo: "#",
     image:
-      "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1686061593213-98dad7c599b9?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
   },
   {
-    name: "Cloud Resume Deployer",
+    name: "Chat Application",
     description:
-      "Infrastructure automation project that deploys portfolio builds through CI pipelines to a global CDN edge.",
-    stack: ["Terraform", "GitHub Actions", "AWS S3", "CloudFront", "Route53"],
-    github: "https://github.com/your-username/cloud-resume-deployer",
-    demo: "https://cloud-resume-demo.vercel.app",
+      "Built a real-time chat system with room-based messaging using Spring Boot and WebSockets for low-latency communication.",
+    stack: ["Spring Boot", "WebSockets", "Java", "Realtime"],
+    github: "#",
+    demo: "#",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1682941664177-7920d0e59418?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
+  },
+  {
+    name: "Local Marketplace App",
+    description:
+      "Built a mobile marketplace for local sellers to list and sell products with a smooth, accessible shopping flow.",
+    stack: ["Flutter", "Mobile", "E-commerce"],
+    github: "#",
+    demo: "#",
+    image:
+      "https://images.pexels.com/photos/35765454/pexels-photo-35765454.jpeg?cs=srgb&dl=pexels-v-h-2158749783-35765454.jpg&fm=jpg"
   }
 ];

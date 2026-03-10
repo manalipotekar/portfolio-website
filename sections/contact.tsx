@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Linkedin, Mail, Phone } from "lucide-react";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { AnimatedReveal } from "@/components/animated-reveal";
 
@@ -8,7 +8,7 @@ export function ContactSection() {
     <SectionWrapper
       id="contact"
       title="Contact"
-      subtitle="Open to full-time roles, freelance projects, and product collaborations."
+      subtitle="Open to backend and full-stack roles, cloud-native projects, and product collaborations."
       className="pb-14"
     >
       <div className="grid gap-8 lg:grid-cols-2">
@@ -58,35 +58,35 @@ export function ContactSection() {
           <div className="rounded-[1.7rem] border border-brand-100 bg-brand-50/45 p-6 dark:border-slate-800 dark:bg-slate-900/60">
             <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Connect with me</h3>
             <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
-              Prefer social platforms? Reach out through these channels.
+              Email, phone, or LinkedIn — I respond quickly.
             </p>
             <div className="mt-6 space-y-3">
               <Link
-                href="https://github.com/your-username"
+                href="mailto:potekarmanali@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-3 rounded-xl border border-brand-200 bg-white px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:text-brand-300"
               >
-                <Github className="h-4 w-4" />
-                GitHub
+                <Mail className="h-4 w-4" />
+                potekarmanali@gmail.com
               </Link>
               <Link
-                href="https://linkedin.com/in/your-username"
+                href="tel:+918380958912"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-3 rounded-xl border border-brand-200 bg-white px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:text-brand-300"
+              >
+                <Phone className="h-4 w-4" />
+                +91 8380958912
+              </Link>
+              <Link
+                href="https://linkedin.com/in/manali-potekar"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-3 rounded-xl border border-brand-200 bg-white px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:text-brand-300"
               >
                 <Linkedin className="h-4 w-4" />
                 LinkedIn
-              </Link>
-              <Link
-                href="https://twitter.com/your-username"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-3 rounded-xl border border-brand-200 bg-white px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:text-brand-300"
-              >
-                <Twitter className="h-4 w-4" />
-                Twitter / X
               </Link>
             </div>
           </div>

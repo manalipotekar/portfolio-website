@@ -10,15 +10,15 @@ export function HeroSection() {
       <div className="container-base grid items-center gap-12 py-10 sm:py-20 lg:grid-cols-[1.1fr_0.9fr]">
         <AnimatedReveal>
           <p className="inline-flex rounded-full border border-brand-200 bg-brand-50 px-4 py-1 text-xs font-bold uppercase tracking-[0.14em] text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-brand-200">
-            Software Engineer Portfolio
+            Backend Engineer Portfolio
           </p>
           <h1 className="mt-5 max-w-2xl text-5xl font-black leading-[1.02] text-slate-900 sm:text-6xl lg:text-7xl dark:text-slate-100">
-            Building Products
-            <span className="block text-brand-600 dark:text-brand-400">That People Love</span>
+            Reliable Systems
+            <span className="block text-brand-600 dark:text-brand-400">At Scale</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-7 text-slate-600 sm:text-lg dark:text-slate-300">
-            I am Manali Potekar, a full-stack developer crafting fast web apps, robust APIs, and delightful digital
-            experiences for startups and teams.
+            I am Manali Potekar, a backend engineer building resilient microservices, API platforms, and cloud-native
+            systems with Java, Spring Boot, Kafka, and AWS.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
